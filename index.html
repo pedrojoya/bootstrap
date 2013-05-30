@@ -58,16 +58,23 @@
             <div class="span2">
                 <!-- Lista de navegación -->
                 <ul class="nav nav-list">
-                    <li class="nav-header">Criterio de búsqueda</li>
+                    <li class="nav-header">Búsqueda</li>
                     <li class="active"><a href="#">Por Cliente</a></li>
                     <li><a href="#">Por Mascota</a></li>
                 </ul>
             </div>
             <!-- Contenido -->
             <div class="span10">
-                <h2>Listado de Clientes</h1>
-                <p>Seleccione de la tabla el cliente que realiza la visita</p>
-                Aquí va la tabla de Clientes
+                <form class="form">
+                    <fieldset>
+                        <legend>Búsqueda de cliente</legend>
+                        <label for="nombre">Nombre</label>                    
+                        <div class="input-append">
+                            <input type="text" name="nombre" class="input-xlarge">
+                            <button type="submit" class="btn">Buscar</button>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
         <!-- Pie -->
