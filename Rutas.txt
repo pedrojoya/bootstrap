@@ -1,0 +1,10 @@
+Rutas
+
+admin/clientes/ --> get_index() --> Mostrará un formulario de búsqueda de clientes con un botón que envía a sí mismo pero por método post.
+admin/clientes/ --> post_index() --> Mostrará un listado de los clientes en base a la búsqueda seleccionada.
+admin/clientes/create/ --> get_create() --> Muestra el formulario para dar de alta un cliente.
+admin/clientes/create/ --> post_create --> Inserta un cliente en la BD con los datos provenientes del formulario del get_create().
+admin/clientes/update/{id} --> get_update($client_id) --> Mostrará los datos del cliente con un botón para actualizar y otro para eliminar. Además mostrará la lista de mascotas del cliente.
+admin/clientes/update/{id} --> post_index($client_id) --> Actualiza los datos del cliente (update en la BD).
+admin/clientes/id --> delete_index(id) --> Borra los datos del cliente (delete en la BD).
+admin/clientes/
